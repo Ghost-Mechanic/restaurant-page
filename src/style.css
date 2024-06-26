@@ -19,6 +19,9 @@
 }
 
 nav {
+    font-family: 'Permanent Marker';
+    font-size: 2rem;
+    cursor: default;
     width: 10rem;
     display: flex;
     align-items: center;
@@ -34,14 +37,40 @@ nav {
 
 .burger {
     margin-top: 40px;
-    width: 200px;
+    width: 240px;
 }
 
 .headline {
     font-family: 'Permanent Marker';
+    font-size: 4rem;
 }
 
 .description {
     font-family: 'Open Sans', 'Roboto';
+    white-space: pre-line;
+}
+
+.menu-section-title {
+    font-family: 'Permanent Marker';
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu-section {
+    display: flex;
+    border: 1px solid black;
+}
+
+.menu-section-text {
+    font-family: 'Open Sans', 'Roboto';
+    font-size: 1.25rem;
+    white-space: pre-line;
+    padding: 2rem;
+}
+
+.about-text {
+    font-family: 'Open Sans', 'Roboto';
+    font-size: 1.5rem;
     white-space: pre-line;
 }
